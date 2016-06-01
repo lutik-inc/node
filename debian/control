@@ -1,0 +1,19 @@
+Source: nodejs
+Section: misc
+Priority: extra
+Maintainer: Vlad Stepanov <utterstep@education-team.ru>
+Build-Depends:
+    debhelper (>= 7),
+    gcc,
+    build-essential,
+    python (>= 2.7),
+Standards-Version: 3.9.2
+
+Package: nodejs
+Architecture: amd64
+Depends: ${python:Depends},
+    python (>= 2.7),
+    libc6 (>= 2.15),
+    libgcc1 (>= 1:4.1.1),
+    libstdc++6 (>= 4.1.1)
+Description: Node.js built with full ICU support

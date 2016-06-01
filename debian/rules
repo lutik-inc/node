@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+
+BUILD_DIR=debian/dist
+
+%:
+	dh $@
+
+
+override_dh_auto_clean:
+	rm -rf $(BUILD_DIR)
+	make distclean
+
+
+override_dh_auto_configure:
+	./configure --with-intl=full-icu --download=all --dest-cpu=x64 --without-snapshot
+
+
+override_dh_auto_install:
+	make install DESTDIR=$(BUILD_DIR)
+
+
+override_dh_auto_test:
+
+
+override_dh_usrlocal:
+

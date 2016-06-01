@@ -1,0 +1,21 @@
+nodejs (5.11.1-education1) unstable; urgency=low
+
+  [ Vlad Stepanov ]
+  * Update to v5.11.1
+
+ -- Vlad Stepanov <utterstep@education-team.ru>  Thu, 02 Jun 2016 02:55:47 +0300
+
+nodejs (4.1.0-education1) unstable; urgency=low
+
+  [ Vlad Stepanov ]
+  * Update to v4.1.0
+
+ -- Vlad Stepanov <utterstep@education-team.ru>  Mon, 21 Sep 2015 15:43:47 +0300
+
+nodejs (0.12.4-education1) unstable; urgency=low
+
+  [ Vlad Stepanov ]
+  * Initial packaging
+
+ -- Vlad Stepanov <utterstep@education-team.ru>  Mon, 25 May 2015 14:02:47 +0300
+
